@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Victoria Dechamps | GIS Portfolio</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>    
+</head>
+
+<body>
+    <header>
+        <h1>Victoria's GIS Background</h1>
+        <p>A short overview of my GIS experience and education.</p>
+    </header>
+    
+    <main>
+        <img class="portrait"src="images/photo.jpg" alt="A photo of Victoria Dechamps" width="300">
+    
+        <h2>My Current Role</h2>
+        <p>
+            I have been working as a GIS Specialist for Parsons Corporation in NYC for the past two years. This role is incredibly rewarding, as it allows me to apply my GIS skills to real-world problems and contribute to meaningful projects, that I can witness in real-time.  
+            I mainly work on environmental remediation and transportation projects around the US, but assist on various other GIS-related tasks intermitttently.
+        </p>
+
+        <hr>
+        
+        <h2>Education and Background</h2>
+        <p>
+            I am pursuing a MS in Spatial Data Science at the Spatial Sciences Institute at the University of Southern California (USC).
+            I am in my second year of the program, taking classes on SSCI 591: Web and Mobile GIS and SSCI 575: Spatial Data Science.
+        </p>
+        
+        <p>
+            I have a Bachelor's of Science degree in GeoDesign from USC (Grad 2023), where I developed a strong foundation in GIS and spatial analysis in combination with urban planning and architecture. This unique degree has allowed me to approach GIS problems with a creative, holistic, and design-oriented mindset, which I believe is essential for effective change. During my time at USC, I interned at Studio-11 in Long Beach, CA, where I worked on a variety of urban planning projects, often contributing to visualizations that helped communicate complex spatial data to stakeholders.
+        </p>
+
+        <hr>
+
+        <h2>Studio-111 Projects</h2>
+        
+        <p> 
+            Below are some of the projects I worked on at Studio-111, during my internship. The first image is part of our award-winning Other-to-Residential toolkit. The second is part of an initiative to bring back sidewalk dining. I created the visualizations in these projects.
+        </p>
+
+        <img class="work-images"
+                src="images/studio-111-2.jpg" 
+                alt="A photo of a project I worked on at Studio-11" 
+                width="600">
+        <img class="work-images"
+                src="images/studio-111.jpg" 
+                alt="A photo of a project I worked on at Studio-11" 
+                width="600">
+
+        <hr>
+
+        <h2>What I Like about GIS</h2>
+
+        <p>
+            Click the button below to learn more about what interets me about GIS.
+        </p>
+
+        <button class="custom-button" id="gis-button">Tell Me More!</button>
+
+        <p id="gis-output">What makes GIS interesting to me?</p>
+
+        <hr>
+
+        <h2>Background</h2>
+         <p>
+            I grew up in Brussels, Belgium, and attended an international school where I was consistently exposed to diverse cultures and perspectives. This early exposure to different ways of thinking has greatly influenced my approach to problem-solving and collaboration in my professional life. Having had the opportunity to live, travel, and study in various countries, I have developed a global perspective that I bring to my work in GIS, allowing me to consider the broader implications of spatial data and its applications.
+        </p>
+
+        <hr>
+
+        <h2>Off the Clock</h2>
+        <p>
+            When I'm not working, you can usually find me painting/drawing or playing beach volleyball. I like to do anything creative and I love to learn new things - I am currently learning to Ice Skate for the first time, and I have recently started wheel-throwing classes. I like to read (mostly fantasy and fiction).
+        </p>
+
+        <h2>My GIS Journey</h2>
+        
+        <p>
+            GIS has taken me from my hometown in Brussels to USC in Los Angeles, to Parsons Corporation in NYC.
+        </p>
+
+        <div id="map"></div>
+
+        <p>
+        <button class="custom-button"id="home-button">Brussels, Belgium</button>
+        <button class="custom-button" id="usc-button">Los Angeles, CA</button>
+        <button class="custom-button" id="nyc-button">New York City, NY</button>
+        </p>
+
+
+    </main>
+    <footer>
+        <p>Built by Victoria Dechamps &mdash; 2026</p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
